@@ -12,3 +12,5 @@ fi
 # Hash the input using SHA-256 and save to hash_output.txt
 echo -n "$input" | sha256sum > hash_output.txt
 
+#the output will appear on the hash_output.txt every time we insert a different 4-digit integer the hash code 
+#will apppear on the .txt
